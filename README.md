@@ -37,6 +37,7 @@ pipeline during evaluation.
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python rl/check_env.py                              # contract + random rollout
+python rl/check_env.py --world rl/configs/worlds/rooms.yaml   # same check in a named world
 python -m pytest tests -q                           # unit tests
 python rl/train_ppo.py --steps 200000 --n-envs 4
 ```

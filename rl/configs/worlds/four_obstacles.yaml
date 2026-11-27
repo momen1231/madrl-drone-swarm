@@ -1,0 +1,7 @@
+# Four obstacles, one near each corner of the 10x10 area.
+# Each entry is [x, y, r]: centre in metres and radius in metres.
+obstacles:
+  - [2.0, 2.0, 0.5]
+  - [8.0, 2.0, 0.5]
+  - [2.0, 8.0, 0.5]
+  - [8.0, 8.0, 0.5]
